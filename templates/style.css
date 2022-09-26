@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+nav ul li{
+    display: inline;
+}
