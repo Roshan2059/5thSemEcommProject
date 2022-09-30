@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+nav{
+    margin: 10px 10px 0px 0px;
+}
+
+#first-img{
+    height: 30px;
+}
+
+#first{
+    margin-left: 10vw;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 30, 0);
+}
+
+nav ul li{
+    display: inline;
+    margin-left: 5vh;
+}
+
+nav ul li input{
+    border-radius: 5px;
+    height: 5vh;
+    width: 20vw;
+    margin-left: 1vw;
+}
+
+input[type=text]{
+    padding: 5px;
+}
+
+#last{
+    margin-left: 1vw;
+}
