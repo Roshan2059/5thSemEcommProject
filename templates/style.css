@@ -35,8 +35,16 @@ nav ul li input{
 }
 
 input[type=text]{
+    width: 10%;
     padding: 5px;
+    border: 1px solid rgb(255, 30, 0);
+    transition: width 0.4s ease-in-out;
 }
+
+input[type=text]:focus {
+    width: 17%;
+    box-shadow: 5px 5px 7px gray;
+  }
 
 .icon{
     font-size: 1.5em;
