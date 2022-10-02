@@ -8,10 +8,9 @@
     <div class="products">
 
         {% for book in Products %}
-        <div class="ind-product">
+        <div class="ind-pro">
 
-        <div id="book-img"><img src="" alt="{{book.image.url}}" >
-        </div>
+        <img src="{{book.image.url}}" alt="{{book.name}}">
             <div class="book-title">{{book.title}}</div>
             <div class="book-author">{{book.author}}</div>
         <div class="book-price">{{book.price}}</div>
