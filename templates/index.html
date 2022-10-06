@@ -1,22 +1,21 @@
-{% extends 'base.html'%}
-{% load static %}
-{% block content %}
-    <div>
-        <h2 class="text-center">Browse Our Products</h2>
-    </div>
+{% extends 'base.html'%} {% load static %} {% block content %}
+<div>
+  <h2 class="text-center">Browse Our Products</h2>
+</div>
 
-    <div class="products">
-
-        {% for book in Products %}
-        <div class="ind-pro">
-
-        <img src="{{book.image.url}}" alt="{{book.name}}">
-            <div class="book-title">{{book.title}}</div>
-            <div class="book-author">{{book.author}}</div>
-        <div class="book-price">{{book.price}}</div>
-        </div>
-        {% endfor %}
-
-    </div>
+<div class="products">
+  {% for book in products %}
+  <div class="ind-pro">
+    <img src="{{image.url}}" alt="{{book.name}}" />
+    <div class="book-title">{{book.name}}</div>
+    <div class="book-author">{{book.author_name}}</div>
+    <div class="book-price">Rs. {{book.price}}</div>
+  </div>
+  {% endfor %}
+  <div class="ind-pro"></div>
+  <div class="ind-pro"></div>
+  <div class="ind-pro"></div>
+  <div class="ind-pro"></div>
+  <div class="ind-pro"></div>
+</div>
 {% endblock %}
-
