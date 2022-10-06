@@ -62,13 +62,22 @@ input[type=text]:focus {
 
 .ind-pro{
     box-sizing: border-box;
-    border: 1px solid rgb(255, 30, 0);
-    height: 40vh;
-    width: 20vw;
-    margin: 1.6em;
+    border: 2px solid paleturquoise;
+    height: auto;
+    width: 15vw;
+    margin: 1em;
 }
 
 .ind-pro img{
-    height: 100px;
-    width: 100px;
+    margin-top: 20px;
+    margin-left: 18%;
+    height: 170px;
+    width: 130px;
+}
+
+.pro_desc{
+    margin-top: 10px;
+    margin-left: 18%;
+    font-weight: 600;
+    margin-bottom: 10px;
 }
