@@ -67,3 +67,8 @@ input[type=text]:focus {
     width: 20vw;
     margin: 1.6em;
 }
+
+.ind-pro img{
+    height: 100px;
+    width: 100px;
+}

@@ -6,16 +6,11 @@
 <div class="products">
   {% for book in products %}
   <div class="ind-pro">
-    <img src="{{image.url}}" alt="{{book.name}}" />
+    <img src="{{book.ImageField.url}}" alt="{{book.title}}" />
     <div class="book-title">{{book.name}}</div>
-    <div class="book-author">{{book.author_name}}</div>
+    <div class="book-author">by {{book.author_name}}</div>
     <div class="book-price">Rs. {{book.price}}</div>
   </div>
   {% endfor %}
-  <div class="ind-pro"></div>
-  <div class="ind-pro"></div>
-  <div class="ind-pro"></div>
-  <div class="ind-pro"></div>
-  <div class="ind-pro"></div>
 </div>
 {% endblock %}
